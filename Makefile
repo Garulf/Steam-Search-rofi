@@ -1,7 +1,10 @@
+NAME = steam-search
+
 
 .venv/bin/activate: requirements.txt
 	python3 -m venv .venv
 	./.venv/bin/pip install -r requirements.txt
+	./.venv/bin/pip install -r requirements-dev.txt
 
 .PHONY: venv
 venv: .venv/bin/activate
@@ -13,22 +16,22 @@ build: .venv/bin/activate
 
 dist: build
 	mkdir -p dist
-	python3 -m zipapp build -p "/usr/bin/env python" -o dist/Steam-Search.pyz
+	python3 -m zipapp build -p "/usr/bin/env python" -o dist/$(NAME).pyz
 
-/home/garulf/.config/rofi/scripts/Steam-Search.pyz: dist
+/home/garulf/.config/rofi/scripts/$(NAME).pyz: dist
 	mkdir -p ~/.config/rofi/scripts
-	cp dist/Steam-Search.pyz ~/.config/rofi/scripts
+	cp dist/$(NAME).pyz ~/.config/rofi/scripts
 
 
 .PHONY: install
-install: /home/garulf/.config/rofi/scripts/Steam-Search.pyz
+install: /home/garulf/.config/rofi/scripts/$(NAME).pyz
 
 run: install
-	rofi -modi "Steam-Search" -show "Steam-Search"
+	rofi -modi "$(NAME)" -show "$(NAME)"
 
 .PHONY: uninstall
 uninstall:
-	rm -f ~/.config/rofi/scripts/Steam-Search.pyz
+	rm -f ~/.config/rofi/scripts/$(NAME).pyz
 
 .PHONY: clean
 clean: uninstall
