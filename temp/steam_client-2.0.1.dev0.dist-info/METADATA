@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: steam-client
+Version: 2.0.1.dev0
+Summary: Steam client library for Python
+Author-email: William McAllister <dev.garulf@gmail.com>
+License: MIT
+Project-URL: Source, https://github.com/garulf/steam-client
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vdf >=3.4
+Requires-Dist: pycrc >=0.10.0
+
