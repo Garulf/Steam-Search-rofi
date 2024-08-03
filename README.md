@@ -1,1 +1,3 @@
-Steam-Search *ROfi edition*
+Steam-Search *Rofi edition*
+
+![Screenshot](/screenshots/screenshot.png)
