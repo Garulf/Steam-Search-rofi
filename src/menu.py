@@ -12,7 +12,7 @@ def get_games(steam_path: Union[str, Path]):
 
 class MainMenu(rofi_menu.Menu):
     config = Config()
-    prompt = "menu"
+    prompt = "Steam"
     items = []
     for _ in get_games(config.steam_path):
         items.append(
