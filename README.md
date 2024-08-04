@@ -4,6 +4,10 @@
 
 ## Installation
 
+### Automatic Install
+
+*Coming soon*
+
 ### Manual Install
 
 1. Download the `steam-search.pyz` from here: [Releases](https://github.com/Garulf/Steam-Search-rofi/releases)
