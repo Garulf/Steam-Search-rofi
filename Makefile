@@ -39,4 +39,11 @@ clean: uninstall
 	rm -rf build
 	rm -rf .venv
 
+.PHONY: update
+update:
+	pip-compile --upgrade requirements.in
+
+.PHONY: update-dev
+update-dev:
+	pip-compile --upgrade requirements-dev.in
 
