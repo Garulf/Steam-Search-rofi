@@ -3,6 +3,8 @@
 
 # Steam-Search *Rofi edition*
 
+Steam-Search will search all Steam libraries across all drives!
+
 ![Steam Search using icon type](/screenshots/hero.png)
 
 ## Installation
