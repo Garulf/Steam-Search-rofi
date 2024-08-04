@@ -19,8 +19,3 @@ repos:
     rev: v3.17.0
     hooks:
     -   id: pyupgrade
-repos:
--   repo: https://github.com/hhatto/autopep8
-    rev: ...  # select the tag or revision you want, or run `pre-commit autoupdate`
-    hooks:
-    -   id: autopep8
