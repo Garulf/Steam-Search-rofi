@@ -6,7 +6,7 @@
 
 ### Manual Install
 
-1. Download the executable from here: [Releases](https://github.com/Garulf/Steam-Search-rofi/releases)
+1. Download the `steam-search.pyz` from here: [Releases](https://github.com/Garulf/Steam-Search-rofi/releases)
 2. Move `steam-search.pyz` to your Rofi scripts directory (~/.config/rofi/scripts)
 3. Run `chmod +x ./steam-search.pyz` to allow Steam Search to run.
 
