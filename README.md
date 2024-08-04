@@ -3,7 +3,7 @@
 
 # Steam-Search *Rofi edition*
 
-![Steam Search using icon type](/screenshots/screenshot3.png)
+![Steam Search using icon type](/screenshots/hero.png)
 
 ## Installation
 
