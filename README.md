@@ -1,3 +1,6 @@
+[![buymeacoffee](https://img.shields.io/badge/buy%20me%20a%20coffee-yellow.svg?style=flat-square&logo=buymeacoffee&logoColor=000)](https://www.buymeacoffee.com/garulf)
+
+
 # Steam-Search *Rofi edition*
 
 ![Steam Search using icon type](/screenshots/screenshot3.png)
